@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de gastos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Controle de gastos</h1>
+  </header>
+
+  <main class="container">
+    <section class="info">
+    <div class="card-total-entradas" id="entradas">Total de entradas</div>
+    <div class="card-total-saidas" id="saidas">Total de saídas</div>
+    <div class="card-saldo-total" id="saldo">Saldo total</div>
+    </section>
+
+    <section class="formulario">
+      <form id="formTransacao">
+        <input type="text" id="descricao" placeholder="Informe detalhes sobre a transação">
+        <input type="number" id="valor" placeholder="Informe o valor da transação">
+
+        <div class="tipo-transacao">
+          <button type="button" id="entrada" class="btn-tipo-ativo">Entrada</button>
+          <button type="button" id="saida" class="btn-tipo-inativo">Saída</button>
+        </div>
+
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section class="lista-transacoes">
+      <h2>Lista de transações</h2>
+      <div id="listaTransacoes"></div>
+      <canvas id="grafico"></canvas>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

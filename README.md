@@ -4,7 +4,7 @@ Um projeto simples de controle financeiro pessoal feito para praticar JavaScript
 
 O objetivo foi simular uma aplicação real onde o usuário consegue registrar entradas e saídas e visualizar o saldo em tempo real.
 
-uncionalidades : Adicionar transações (entrada e saída) Cálculo automático de saldo Remoção de transações Atualização dinâmica da interface Gráfico de movimentação financeira Chart.js Interface simples e responsiva
+funcionalidades : Adicionar transações (entrada e saída) Cálculo automático de saldo Remoção de transações Atualização dinâmica da interface Gráfico de movimentação financeira Chart.js Interface simples e responsiva
 
 Tecnologias utilizadas : HTML5 CSS3 JavaScript (Vanilla JS) Chart.js
 
